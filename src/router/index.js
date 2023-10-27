@@ -11,7 +11,7 @@ const router = createRouter({
     {
       path: "/historico",
       name: "historico",
-      component: () => import("../views/HistoricoView.vue"),
+      component: () => import("../views/historicoView.vue"),
     },
 ]
 });
